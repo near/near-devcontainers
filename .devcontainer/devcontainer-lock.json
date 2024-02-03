@@ -9,11 +9,6 @@
       "version": "2.7.1",
       "resolved": "ghcr.io/devcontainers/features/docker-in-docker@sha256:f6a73ee06601d703db7d95d03e415cab229e78df92bb5002e8559bcfc047fec6",
       "integrity": "sha256:f6a73ee06601d703db7d95d03e415cab229e78df92bb5002e8559bcfc047fec6"
-    },
-    "ghcr.io/lee-orr/rusty-dev-containers/wasm32-unknown-unknown:0": {
-      "version": "0.1.0",
-      "resolved": "ghcr.io/lee-orr/rusty-dev-containers/wasm32-unknown-unknown@sha256:9321cc9bce7346c99d153517e52879d41022531b0b22bf0ede44ed9b2de91368",
-      "integrity": "sha256:9321cc9bce7346c99d153517e52879d41022531b0b22bf0ede44ed9b2de91368"
     }
   }
 }

@@ -32,8 +32,8 @@ RUN set -eux; \
     rustup --version; \
     cargo --version; \
     rustc --version; \
-    rustup component add rustfmt clippy llvm-tools-preview \
-    rustup target add wasm32-unknown-unknown \
+    rustup component add rustfmt; \
+    rustup target add wasm32-unknown-unknown; \
     apt-get remove -y --auto-remove \
         wget \
         ; \
