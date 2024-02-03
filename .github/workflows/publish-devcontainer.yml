@@ -23,4 +23,5 @@ jobs:
         uses: devcontainers/ci@v0.3
         with:
           imageName: ghcr.io/njelich/near-devcontainer
+          noCache: true
           push: always
