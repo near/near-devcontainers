@@ -15,7 +15,6 @@
       "version": "latest",
       "ppa": "false"
     },
-    "ghcr.io/lee-orr/rusty-dev-containers/cargo-binstall:0": {},
     "ghcr.io/devcontainers/features/common-utils:2": {
       "installZsh": "true",
       "username": "vscode",
