@@ -29,9 +29,6 @@
 
   "postCreateCommand": "bash .devcontainer/init.sh",
 
-  // 👇 Configure tool-specific properties.
-  // "customizations": {},
-
   "remoteUser": "vscode",
 
   "customizations": {
