@@ -1,5 +1,9 @@
-ARG VARIANT="3.12"
-FROM mcr.microsoft.com/vscode/devcontainers/base:0-alpine-${VARIANT}
+# [Choice] Debian OS version (use bookworm, or bullseye on local arm64/Apple Silicon): bookworm, buster, bullseye
+FROM debian:bookworm-slim
+
+RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
+    # Remove imagemagick due to https://security-tracker.debian.org/tracker/CVE-2019-10131
+    && apt-get purge -y imagemagick imagemagick-6-common
 
 # Additional packages:
 # - libudev-dev: required for the hidapi crate (cargo-near dependency)
