@@ -18,7 +18,8 @@
       "userUid": "1000",
       "userGid": "1000"
     },
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/lee-orr/rusty-dev-containers/wasm32-unknown-unknown:0": {}
   },
 
   // 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
