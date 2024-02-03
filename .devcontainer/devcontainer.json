@@ -9,7 +9,6 @@
   "features": {
     "./cargo-near": {},
     "./near-cli": {},
-    "ghcr.io/devcontainers/features/rust:1": "latest",
     "ghcr.io/devcontainers/features/common-utils": {
       "installZsh": "false",
       "installOhMyZsh": "false",
