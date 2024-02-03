@@ -22,7 +22,7 @@
 
   "postCreateCommand": "bash .devcontainer/init.sh",
 
-  "remoteUser": "vscode",
+  // "remoteUser": "vscode",
 
   "customizations": {
     "codespaces": {
