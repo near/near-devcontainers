@@ -10,11 +10,7 @@
     "./cargo-near": {},
     "./near-cli": {},
     "ghcr.io/devcontainers/features/rust:1": "latest",
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-    "ghcr.io/devcontainers/features/git:1": {
-      "version": "latest",
-      "ppa": "false"
-    }
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
 
   // 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
