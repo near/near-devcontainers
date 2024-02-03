@@ -4,5 +4,5 @@
   "version": "0.1.0",
   "description": "A feature to install cargo-near",
   "options": {},
-  "installsAfter": []
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }
