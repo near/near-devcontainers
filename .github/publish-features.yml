@@ -1,0 +1,24 @@
+name: "Publish Devcontainer Features"
+on:
+  workflow_dispatch:
+  release:
+    types: published
+
+jobs:
+  permissions:
+    contents: read
+    packages: write
+  publish-features:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: "Publish cargo-near"
+        uses: devcontainers-community/publish-feature@v1
+        with:
+          path: ".devcontainer/cargo-near"
+
+      - name: "Publish near-cli"
+        uses: devcontainers-community/publish-feature@v1
+        with:
+          path: ".devcontainer/near-cli"

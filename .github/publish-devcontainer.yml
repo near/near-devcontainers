@@ -1,0 +1,21 @@
+name: "Publish Devcontainer Prebuild"
+on:
+  workflow_dispatch:
+  release:
+    types: published
+
+jobs:
+  permissions:
+    contents: read
+    packages: write
+  publish-features:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Pre-build dev container image
+        uses: devcontainers/ci@v0.3
+        with:
+          imageName: ghcr.io/njelich/near-devcontainer
+          cacheFrom: ghcr.io/njelich/near-devcontainer
+          push: always
