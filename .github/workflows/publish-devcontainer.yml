@@ -22,6 +22,6 @@ jobs:
       - name: Pre-build dev container image
         uses: devcontainers/ci@v0.3
         with:
-          imageName: ghcr.io/njelich/near-devcontainer
+          imageName: ghcr.io/near/near-devcontainer
           noCache: true
           push: always
