@@ -14,7 +14,7 @@ For integrating this Devcontainer into your repositories, create the following c
 ```json
 {
   "name": "NEAR Devcontainer Rust",
-  "image": "ghcr.io/njelich/near-devcontainer:latest",
+  "image": "ghcr.io/near/near-devcontainer:latest",
   // Uncomment and modify the following lines if necessary
   // "forwardPorts": [8000],
   "customizations": {
@@ -34,7 +34,7 @@ For `cargo-near`:
 
 ```json
 "features": {
-  "ghcr.io/njelich/features/cargo-near:latest": {}
+  "ghcr.io/near/features/cargo-near:latest": {}
 }
 ```
 
@@ -42,7 +42,7 @@ For `near-cli`:
 
 ```json
 "features": {
-  "ghcr.io/njelich/features/near-cli:latest": {}
+  "ghcr.io/near/features/near-cli:latest": {}
 }
 ```
 
