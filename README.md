@@ -34,7 +34,7 @@ For `cargo-near`:
 
 ```json
 "features": {
-  "ghcr.io/near/features/cargo-near:latest": {}
+  "ghcr.io/near/near-devcontainers/features/cargo-near:latest": {}
 }
 ```
 
@@ -42,7 +42,7 @@ For `near-cli`:
 
 ```json
 "features": {
-  "ghcr.io/near/features/near-cli:latest": {}
+  "ghcr.io/near/near-devcontainers/features/near-cli:latest": {}
 }
 ```
 
