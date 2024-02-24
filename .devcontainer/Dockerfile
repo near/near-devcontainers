@@ -8,9 +8,11 @@ ENV RUSTUP_HOME=/usr/local/rustup \
 RUN set -eux; \
     apt-get update; \
     apt-get install -y --no-install-recommends \
-        ca-certificates \
-        gcc \
         libc6-dev \
+        gcc \
+        pkg-config \
+        libssl-dev \
+        ca-certificates \
         wget \
         ; \
     dpkgArch="$(dpkg --print-architecture)"; \
