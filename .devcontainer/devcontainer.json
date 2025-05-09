@@ -26,8 +26,7 @@
   // 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
 
-  // Cache images that will be used on source verification
-  "onCreateCommand": "docker pull nearprotocol/contract-builder:latest-amd64",
+  "onCreateCommand": "echo all good",
 
   "remoteUser": "vscode",
 
